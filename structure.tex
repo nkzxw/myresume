@@ -31,7 +31,22 @@
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
 \usepackage{fontspec} % Required for specification of custom fonts
-\setmainfont[Path=./fonts/,Extension=.TTF,BoldFont=FZLanTingHeiS-B-GB.TTF,]{FZLanTingHeiS-R-GB}
+\usepackage[BoldFont,SlantFont,CJKchecksingle]{xeCJK}
+
+\setmainfont[
+Path = ./fonts/,
+Extension = .otf,
+BoldFont = Erewhon-Bold,
+ItalicFont = Erewhon-Italic,
+BoldItalicFont = Erewhon-BoldItalic,
+SmallCapsFeatures = {Letters = SmallCaps}
+]{Erewhon-Regular}
+
+\setCJKmainfont[
+Path=./fonts/,
+Extension=.TTF,
+BoldFont=FZLanTingHeiS-B-GB,
+]{FZLanTingHeiS-R-GB}
 
 \usepackage{color} % Required for custom colors
 \definecolor{slateblue}{rgb}{0.17,0.22,0.34}
