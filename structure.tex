@@ -57,18 +57,17 @@ BoldFont=FZLanTingHeiS-B-GB,
 
 \newcommand{\education}[1]{
 \begin{tabbing}
-\hspace{2cm} \= \hspace{1cm} \= \kill
+\hspace{2cm} \= \hspace{7cm} \= \kill
 #1
 \end{tabbing}
 }
 
 \newcommand{\job}[4]{
 \begin{tabbing}
-\hspace{2cm} \= \kill
-\textbf{#1} \> {#2} \\
-\>\+ \textit{#3} \\
+\hspace{2cm} \= \hspace{7cm} \= \kill
+\textbf{#1} \> {#2} \>\textit{#3}\+\\[8pt]
 \begin{minipage}{\smallertextwidth}
-\vspace{2mm}
+%\vspace{2mm}
 #4
 \end{minipage}
 \end{tabbing}

@@ -6,34 +6,33 @@
 \input{structure.tex} % Include the file specifying document layout
 \begin{document}
 
-\title{姓名}
-\parbox{0.5\textwidth}{
+\title{张兴伟}
+\parbox{2pt}{
 \begin{tabbing}
-\hspace{2cm} \= \hspace{1cm} \= \kill % Spacing within the block
+\hspace{1.5cm} \= \hspace{4cm} \kill % Spacing within the block
 \textbf{地址:} \>北京\\
 \textbf{年龄:} \>29
-\end{tabbing}}
+\end{tabbing}
+}
 \hfill % Horizontal space between the two blocks
-\parbox{0.5\textwidth}{
+\parbox{2pt}{
 \begin{tabbing}
-\hspace{2cm} \= \hspace{1cm} \= \kill % Spacing within the block
-\textbf{手机号:} \> (+86)13161267107\\ 
-\textbf{邮箱:}   \> zxw5450@foxmail.com
-\end{tabbing}}
+\hspace{1.5cm} \= \hspace{4cm} \kill % Spacing within the block
+\textbf{手机号:} \>(+86)13161267107\\ 
+\textbf{邮箱:} \>zxw5450@foxmail.com
+\end{tabbing}
+}
 
 \section{个人总结}
-对工作负责、自我驱动力强、热爱研究文件系统相关的底层技术。\\
-研究生毕业后一直从事文件系统存储相关工作，对大数据，分布式，高性能程序开发有浓厚兴趣。
+毕业后一直从事文件系统存储相关工作，工作上认真负责，自我驱动力强。\\对文件系统相关的底层技术有所研究，对大数据开发，分布式存储，高性能应用感兴趣。
 \section{教育背景}
 \education{
-\textbf{2012-2014} \> 南开大学硕士\\[5pt]
-\>\textit{专业:}
-\>\textit{计算机技术}
+\textbf{2012-2014} \> 南开大学 \>硕士\+\\[5pt]%设置5pt换行间隔
+\textit{专业:计算机技术}
 }
 \education{
-\textbf{2008-2012} \> 南开大学本科\\[5pt]
-\>\textit{专业:}
-\>\textit{计算机科学与技术}
+\textbf{2008-2012} \> 南开大学 \>本科\+\\[5pt]%设置5pt换行间隔
+\textit{专业:计算机科学与技术}
 }
 \section{工作经历}
 %\job
@@ -48,18 +47,18 @@
 {2014-至今}
 {北京中科蓝鲸信息技术有限公司}
 {高级研发工程师}
-{负责Bwfs分布式文件系统的功能开发和功能稳定。
+{主要负责Bwfs分布式文件系统的功能开发和实现功能稳定。
 \begin{itemize-noindent}
-\item{对自研的分布式文件系统发现的问题进行定位和改进}
+\item{对自研的分布式文件系统进行bug定位和功能改进}
 \item{技术：多线程、windows文件系统驱动、ddk、wdk}
-\item{实现Windows内核态的rpc}
-\item{技术：wsk，tdi socket，分布式rpc}
-\item{实现跨平台文件系统软连接、硬链接}
+\item{实现Windows内核态rpc}
+\item{技术：wsk、tdi socket、双向rpc}
+\item{实现文件系统跨平台的文件软连接、硬链接}
 \item{技术：文件系统底层知识}
 \item{实现分布式文件系统的delegation、session、分布式锁}
-\item{技术：Linux C/C++服务开发，zeromq，pnfs}
-\item{文件系统HA高可用功能开发}
-\item{技术：浮动ip，udp心跳检测，tcp重连，状态恢复高可用}
+\item{技术：Linux平台C/C++服务开发、zeromq、fcn、pnfs、消息队列}
+\item{文件系统服务HA高可用功能开发}
+\item{技术：浮动ip，心跳检测，rpc重连，状态重建}
 \end{itemize-noindent}
 }
 \section{技术能力}
@@ -69,16 +68,10 @@
 }
 \skillgroup{分布式文件系统}
 {
-\textit{Linux平台下文件系统相关的服务开发}\\
-\textit{svn, git}
+\textit{Linux平台下文件系统相关的服务开发}
 }
-\skillgroup{Windows文件系统驱动}
+\skillgroup{Windows驱动开发}
 {
-\textit{文件系统驱动，过滤驱动开发、调试、bug定位、性能调优}
+\textit{文件系统驱动，过滤驱动开发，性能调优}
 }
-\skillgroup{英语技能}
-{
-\textit{六级} - 良好的英语文档读写能力。
-}
-
 \end{document}
